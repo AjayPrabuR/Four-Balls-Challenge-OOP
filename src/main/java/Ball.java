@@ -11,11 +11,11 @@ public class Ball {
         this.speedPerFrame = speedPerFrame;
     }
 
-    public int getxCoordinate() {
+    public int getXCoordinate() {
         return xCoordinate;
     }
 
-    public int getyCoordinate() {
+    public int getYCoordinate() {
         return yCoordinate;
     }
 
@@ -24,6 +24,6 @@ public class Ball {
     }
 
     public void drawBall(FourBallChallenge fourBallChallenge) {
-        fourBallChallenge.ellipse(this.getxCoordinate(), this.getyCoordinate(), BALL_DIAMETER, BALL_DIAMETER);
+        fourBallChallenge.ellipse(this.getXCoordinate(), this.getYCoordinate(), BALL_DIAMETER, BALL_DIAMETER);
     }
 }
