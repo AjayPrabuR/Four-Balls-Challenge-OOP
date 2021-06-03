@@ -1,3 +1,5 @@
+package oop;
+
 public class Ball {
 
     public static final int BALL_DIAMETER = 10;
